@@ -27,10 +27,10 @@ const theme = createTheme({
       main: red.A400,
     },
     background: {
-      default: #fff,
+      default: "#fff",
     },
   },
-  shadows: [],
+  //   shadows: [],
   overrides: {
     MuiButton: {
       root: {
@@ -38,6 +38,7 @@ const theme = createTheme({
         textTransform: "none",
         fontSize: 16,
         height: 40,
+        fontWeight: 700,
       },
       textPrimary: {
         paddingLeft: 20,
