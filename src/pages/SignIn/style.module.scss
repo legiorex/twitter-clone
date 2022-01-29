@@ -1,0 +1,63 @@
+.wrapper {
+  display: flex;
+  height: calc(100vh - 84px);
+}
+.blueSide {
+  background-color: #71c9f8;
+  position: relative;
+
+  .twitterBigIcon:global(.MuiSvgIcon-root) {
+    position: absolute;
+    top: 62%;
+    left: 45%;
+    width: 350%;
+    height: 350%;
+    transform: translate(-50%, -50%);
+  }
+}
+.loginSide,
+.blueSide {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.twitterIcon:global(.MuiSvgIcon-root) {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.loginWrapper {
+  width: 380px;
+  button:first-of-type {
+    margin: 20px 0;
+  }
+}
+.loginTitle:global(.MuiTypography-root) {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 45px;
+}
+
+.listInfo {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 380px;
+  position: relative;
+
+  h6 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  :global(.MuiSvgIcon-root) {
+    font-size: 32px;
+    margin-right: 15px;
+  }
+}
