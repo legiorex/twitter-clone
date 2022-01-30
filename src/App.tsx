@@ -1,11 +1,12 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
-function App() {
+import StartPage from "./pages/StartPage";
+
+const App = () => {
   return (
     <div className="App">
-      <Button>Test</Button>
+      <StartPage />
     </div>
   );
-}
+};
 
 export default App;
