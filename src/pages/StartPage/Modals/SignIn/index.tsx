@@ -38,7 +38,7 @@ const SingIn: React.FC<Props> = ({ open, onClose }) => {
                             InputLabelProps={{
                                 shrink: true,
                             }}
-                            type={'email'}
+                            type="email"
                         />
                         <TextField
                             className={style.loginSideField}

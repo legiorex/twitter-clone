@@ -1,0 +1,13 @@
+.tweetsHeader:global(.MuiPaper-root) {
+    padding: 10px 15px;
+    border-radius: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    h6 {
+        font-weight: 800;
+    }
+}
+.userName {
+    color: gray;
+}
